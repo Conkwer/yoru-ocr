@@ -1,16 +1,16 @@
-# yomu-ocr
+# yoru-ocr
 
 A local-first OCR app for scanned documents, PDFs and comic archives. It has a
 CLI and a PySide6 desktop GUI. Tesseract is the default OCR engine; an optional
 OpenAI-compatible multimodal model served by `llama-server` can be used instead.
 
 **Status:** pre-release / work in progress. The repository name is
-`yomu-ocr`; the current CLI entry point is still `src/refinedocr.py` and the
+`yoru-ocr`; the current CLI entry point is still `src/refinedocr.py` and the
 GUI is `src/gui.py` (the internal `refinedocr` naming will be renamed before
 the first public release). No prebuilt binaries or bundled OCR data are
 included yet.
 
-![yomu-ocr GUI](docs/screenshot.png)
+![yoru-ocr GUI](docs/screenshot.png)
 
 *Development build (internal name `refinedocr`): page marking, OCR regions,
 page preview and review tabs. The UI may still change.*
@@ -168,7 +168,7 @@ See `--help` for all options.
 ## Example directory layout
 
 ```text
-yomu-ocr\
+yoru-ocr\
   src\
     gui.py
     refinedocr.py
@@ -185,7 +185,7 @@ yomu-ocr\
   refinedocr.ini            (created by the GUI)
 ```
 
-The optional llama-server `.bat` from above belongs in `yomu-ocr\`; the
+The optional llama-server `.bat` from above belongs in `yoru-ocr\`; the
 relative paths in it then match this layout. For a frozen build, put
 `llama\`, `tesseract\`, the model files and the INI next to the executable.
 
