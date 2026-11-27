@@ -1,6 +1,6 @@
 # yomu-ocr
 
-NOTE: The app will be renamed to avoid confusion with the similar app under "yomu" name.
+Note: The app will be renamed to avoid confusion with the similar app under "yomu" name.
 I didn't know it exist. This OCR have nothing to do with "yomu" (manga translation app) 
 and have another purpose.
 
