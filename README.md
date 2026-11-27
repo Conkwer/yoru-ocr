@@ -1,5 +1,9 @@
 # yomu-ocr
 
+NOTE: The app will be renamed to avoid confusion with the similar app under that name.
+I didn't know it exist. This OCR have nothing to do with "yomu" (manga translation app) 
+and have another purpose and this one is not commercial and monetizing is not planned.
+
 A local-first OCR app for scanned documents, PDFs and comic archives. It has a
 CLI and a PySide6 desktop GUI. Tesseract is the default OCR engine; an optional
 OpenAI-compatible multimodal model served by `llama-server` can be used instead.
